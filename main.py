@@ -7,13 +7,13 @@ class Student:
         self.score = float(score)
     
     def change_name(self, new_name):
-        self.new_name = new_name
+        return new_name
 
     def change_age(self, new_age):
-        self.new_age = new_age
+        return new_age
 
     def add_track(self, new_track,):
-        self.new_track = new_track
+        return new_track
 
     def get_score(self):
         return self.score
